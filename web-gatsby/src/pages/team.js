@@ -9,10 +9,20 @@ const Team = ({
 }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+    .map((edge) => {
+          return( 
+            <div key={edge.node.id} className="post">
+              <h2> {edge.node.frontmatter.title} </h2>
+              <p>{edge.node.frontmatter.description}</p>
+              <PostLink  post={edge.node} /> 
+              <hr />
+            </div>
+          )
+    })
   return (
     <Layout>
       <h1> Holi los post del equipito son: </h1>
+      <hr />
       {Posts}
     </Layout>
   )
@@ -29,6 +39,7 @@ export const pageQuery = graphql`
             date
             path
             title
+            description
           }
         }
       }
