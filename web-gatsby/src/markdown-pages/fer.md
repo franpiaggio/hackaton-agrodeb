@@ -1,7 +1,7 @@
 ---
-path: "/team/fran-piaggio"
+path: "/team/fer"
 date: "2019-05-04"
-title: "Fran.js"
+title: "Fer"
 description: "Gridsome, Graphql y Vuejs para la gilada"
 ---
 
