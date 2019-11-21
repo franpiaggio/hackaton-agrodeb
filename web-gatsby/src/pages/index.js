@@ -23,9 +23,9 @@ const IndexPage = () => (
                     <li> El sherman </li>
                     <li> Fer-net </li>
                     <li> El señor Chat (Nahue) </li>
-                    <li> Ale? </li>
+                    <li> Aleluya</li>
                     <li> Meri </li>
-                    <li> Fran </li>
+                    <li> Fran.js </li>
                   </ol>
               </div>
               <div className="column is-offset-1">
