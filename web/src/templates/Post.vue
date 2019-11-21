@@ -11,6 +11,13 @@
     </div>
   </Layout>
 </template>
+<style>
+  code,pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+</style>
 <page-query>
 query Post ($path: String!) {
    post: post (path: $path) {

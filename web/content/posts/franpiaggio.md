@@ -1,21 +1,25 @@
 ---
 path: "/team/fran-piaggio"
-date: "21/11/2019"
+date: "2019-05-04"
 title: "Fran.js"
-description: "Gridsome, Graphql y Vuejs para la gilada"
+description: "Static sites: vuejs vs React"
 ---
 
 ## ¿Qué temas te interesaba aplicar?
 
- 1. Generación de contenido estático + Vuejs
- 2. Aplicación de Graphql para fetch de datos de distintos source
- 3. Estructura de Gridsome: pages, layouts, plugins
- 4. Deploy en github pages o AWS
- 5. Dominación mundial
+ 1. Generación de contenido estático 
+ 2. Gatsby vs React
+ 3. Aplicación de Graphql para fetch de datos de distintos source
+ 4. Estructura de Gatsby: pages, layouts, plugins
+ 5. Deploy en github pages o AWS
+ 6. Dominación mundial
 
 ## ¿Qué problemas encontraste durante el desarrollo?
 
-Por ahora nada, esto es un ejemplo y ni se por qué lo estás leyendo.
+    - Graphql viene muy preseteado y no es tan simple hacer algo muy personalizado
+    - La estructura de carpetas es muy útil pero a la vez un poco limitante
+    - Gridsome, como Vuejs en general, trae directas un poco más intuitivas. React es un poco más dificil de entender por su libertad en la sintaxis.
+    - Por cada nuevo contenido tengo que hacer un deploy? Queda investigar un poco más como automatizar esto
 
 ## ¿Qué pasos seguiste para resolverlos?
 
