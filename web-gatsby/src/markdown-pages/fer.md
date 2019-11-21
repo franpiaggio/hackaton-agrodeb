@@ -1,25 +1,25 @@
 ---
 path: "/team/fer"
 date: "2019-05-04"
-title: "Fer"
-description: "Gridsome, Graphql y Vuejs para la gilada"
+title: "Fer.Net"
+description: "GraphQL,MongoDB,React"
 ---
 
 ## ¿Qué temas te interesaba aplicar?
 
- 1. Generación de contenido estático Gatsby + React
- 2. Aplicación de Graphql para fetch de datos de distintos source
- 3. Estructura de Gatsby: pages, layouts, plugins
- 4. Deploy en github pages o AWS
- 5. Dominación mundial
+ 1. Plug-in para importación de archivos markdown con Gatsby
+ 2. Correción de bugs en el chat
+ 3. Comer Facturas
+ 4. Ganar la Hackaton
 
 ## ¿Qué problemas encontraste durante el desarrollo?
 
-Por ahora nada, esto es un ejemplo y ni se por qué lo estás leyendo.
+Problemas con los estados de los componentes del chat a la hora de refrescar.
 
 ## ¿Qué pasos seguiste para resolverlos?
 
-Soy un capo e hice todo bien.
+Pair programming con Nahue y Fran para analizar el caso de falla y resolverlo.
+Faltaba ejecutar un cambio de estado en 2 ocasiones para que react ejecutara nuevamente el render del componente.
 
 ## Links y recursos que investigaste
 
@@ -29,4 +29,4 @@ Soy un capo e hice todo bien.
 
 ## Conclusiones
 
-Ojalá hagamos algo con onda porque me acosté tarde ordenando este repo.
+Las facturas estaban ricas, la oficina muy cheta, el equipo funcionó bárbaro, el ejercicio se pudo resolver afrontando los desafíos en grupo.
