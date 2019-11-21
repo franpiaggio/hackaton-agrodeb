@@ -52,12 +52,11 @@ const client = new ApolloClient({
 const Chat = () => (
   <Layout>
     <SEO title="Page two" />
-      <div className="el-chat">
+      <div className="el-chat container">
           <ApolloProvider client={client}>
               <App />
           </ApolloProvider>
       </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 );
 

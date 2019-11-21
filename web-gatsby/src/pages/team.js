@@ -11,7 +11,7 @@ const Team = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map((edge) => {
           return( 
-            <div className="card la-card">
+            <div className="card la-card" key={Math.random()}>
               <div key={edge.node.id} className="post">
               <div className="card-header">
                 <p className="card-header-title"> {edge.node.frontmatter.title}</p>

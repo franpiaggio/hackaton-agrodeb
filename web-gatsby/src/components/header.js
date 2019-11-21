@@ -5,8 +5,8 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <nav className="navbar is-fixed is-primary" role="navigation" aria-label="main navigation">
       <div className="container">
-            <div class="navbar-brand">
-                <Link to="/"></Link>
+            <div className="navbar-brand">
+                <Link to="/" className="navbar-item"> <img src={'../../logo.png'} alt="logo "></img> </Link>
 
                 <a role="button" href="#" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarCopada">
                     <span aria-hidden="true"></span>
@@ -14,6 +14,7 @@ const Header = ({ siteTitle }) => (
                     <span aria-hidden="true"></span>
                 </a>
             </div>
+
             <div className="navbar-end">
                 <div id="navbarCopada" className="navbar-menu">
                       <div className="navbar-start">

@@ -25,8 +25,7 @@ const App = props => {
   const [userLeft, setUserLeft] = useState('');
 
   const [hidden, setHidden] = useState(false);
-
-  const [setLogin] = useState(false);
+  const [login, setLogin] = useState(false); 
 
   const setSelectedMail = (mail, user) => {
     setReceiverState(receiverState => {
