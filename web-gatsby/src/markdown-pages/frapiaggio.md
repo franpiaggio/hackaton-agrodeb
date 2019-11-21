@@ -7,7 +7,7 @@ description: "Gridsome, Graphql y Vuejs para la gilada"
 
 ## ¿Qué temas te interesaba aplicar?
 
- 1. Generación de contenido estático + React
+ 1. Generación de contenido estático Gatsby + React
  2. Aplicación de Graphql para fetch de datos de distintos source
  3. Estructura de Gatsby: pages, layouts, plugins
  4. Deploy en github pages o AWS
