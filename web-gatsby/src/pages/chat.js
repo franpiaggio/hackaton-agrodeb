@@ -18,12 +18,12 @@ import "../components/chat/index.css";
 
 // Create an http link:
 const httpLink = new HttpLink({
-    uri: 'http://e41ddf05.ngrok.io'
+    uri: 'http://fbf796b0.ngrok.io'
 });
 
 // Create a WebSocket link:
 const wsLink = new WebSocketLink({
-    uri: `ws://e41ddf05.ngrok.io`,
+    uri: `ws://fbf796b0.ngrok.io`,
     options: {
         reconnect: true,
         lazy: true,
@@ -61,6 +61,6 @@ const Chat = () => (
       </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+);
 
 export default Chat
