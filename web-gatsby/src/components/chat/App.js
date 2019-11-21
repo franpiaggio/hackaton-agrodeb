@@ -26,6 +26,8 @@ const App = props => {
 
   const [hidden, setHidden] = useState(false);
 
+  const [login, setLogin] = useState(false);
+
   const setSelectedMail = (mail, user) => {
     setReceiverState(receiverState => {
       return { ...receiverState, receiverMail: mail, receiverName: user };
@@ -76,6 +78,7 @@ const App = props => {
         const data = store.readQuery({ query: UserQuery });
         if (!data.users.find(x => x.id === createUser.id)) {
           data.users.push(createUser);
+          setLogin(true);
         }
         store.writeQuery({ query: UserQuery, data });
       }
@@ -92,6 +95,10 @@ const App = props => {
         store.writeQuery({ query: UserQuery, data });
       }
     });
+  };
+
+  const triggerLogin = () => {
+    console.log("Callback")
   };
 
   const { receiverMail, receiverName } = receiverState;

@@ -80,7 +80,7 @@ const Message = props => {
   };
 
   const handleSubmit = async (e, message, email) => {
-    setMessage('');
+
     e.preventDefault();
     const { receiverMail } = props;
     if (!message.length) return null;
@@ -92,9 +92,11 @@ const Message = props => {
         timestamp: Date.now()
       },
       update: (store, { data: { createMessage } }) => {
+
         const data = store.readQuery({ query: MessageQuery });
         data.messages.push(createMessage);
         store.writeQuery({ query: MessageQuery, data });
+        setMessage(' ');
       }
     });
     await props.userTyping({
