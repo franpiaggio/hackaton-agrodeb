@@ -1,0 +1,22 @@
+.blog-post-content{
+    h1,h2,h3{
+        font-weight: 500;
+        margin: .5em 0;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        margin: .5em 0;
+    }
+    ol,
+    li{
+        margin-left: 2em;
+    }
+}
