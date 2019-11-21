@@ -18,7 +18,8 @@ const IndexPage = () => (
                     Proyecto web integrador de la hackaton Agrodreams-Debmedia. <br />
                   </p>
                   <p> Integrantes </p>
-                  <ol className="integrantes"> 
+                  <ol className="integrantes">
+                    <li> El Conde Viegas </li> 
                     <li> El sherman </li>
                     <li> Fer-net </li>
                     <li> El señor Chat (Nahue) </li>
