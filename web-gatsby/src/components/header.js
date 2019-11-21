@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <nav className="navbar is-fixed is-warning" role="navigation" aria-label="main navigation">
+  <nav className="navbar is-fixed is-primary" role="navigation" aria-label="main navigation">
       <div className="container">
             <div class="navbar-brand">
                 <Link to="/"></Link>

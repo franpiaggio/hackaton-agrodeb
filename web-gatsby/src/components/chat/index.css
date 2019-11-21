@@ -28,7 +28,7 @@ body {
 }
 
 .select-user {
-  background-color: #2196f3;
+  background-color: #118376;
   color: white;
   font-weight: bold;
   margin: 5px 0;
@@ -48,7 +48,7 @@ p {
   width: 100%;
   /* position: fixed; */
   display: flex;
-  background-color: #2196f3;
+  background-color: #118376;
   top: 0;
 }
 

@@ -11,19 +11,28 @@ const Team = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map((edge) => {
           return( 
-            <div key={edge.node.id} className="post">
-              <h2> {edge.node.frontmatter.title} </h2>
-              <p>{edge.node.frontmatter.description}</p>
-              <PostLink  post={edge.node} /> 
-              <hr />
+            <div className="card la-card">
+              <div key={edge.node.id} className="post">
+              <div className="card-header">
+                <p className="card-header-title"> {edge.node.frontmatter.title}</p>
+              </div>
+              <div className="card-content">
+                  <p className="content">{edge.node.frontmatter.description}</p>
+                  <PostLink  post={edge.node} /> 
+              </div>
+              </div>
             </div>
           )
     })
   return (
     <Layout>
-      <h1> Holi los post del equipito son: </h1>
-      <hr />
-      {Posts}
+      <div className="section">
+      <div className="container">
+          <h1 className="title"> Holi los post del equipo son: </h1>
+          <hr />
+          {Posts}
+      </div>
+      </div>
     </Layout>
   )
 }
