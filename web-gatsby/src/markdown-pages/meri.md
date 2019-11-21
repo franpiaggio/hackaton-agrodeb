@@ -17,7 +17,9 @@ description: "Static sites: vuejs vs React"
 
 ## ¿Qué pasos seguiste para resolverlos?
 
-
+    - Turoriales
+    - Leer documentación
+    - Utilizar de base los ejemplos de Bulma 
 
 ## Links y recursos que investigaste
 
@@ -27,3 +29,4 @@ description: "Static sites: vuejs vs React"
 
 ## Conclusiones
 
+    - A Bulma le falta un buscador para hacer más fácil la customización. 
