@@ -50,6 +50,7 @@ const Message = props => {
       }
     });
     if (chatBox.current) {
+      chatBox.current.scrollTop = chatBox.current.scrollHeight;
       scrollToBottom();
     }
   });
