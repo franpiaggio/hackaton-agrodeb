@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import ReactDOM from "react-dom";
 import ApolloClient from "apollo-client";
 import { ApolloProvider } from "react-apollo";
 import { split } from 'apollo-link';
@@ -53,7 +52,6 @@ const client = new ApolloClient({
 const Chat = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1></h1>
       <div className="el-chat">
           <ApolloProvider client={client}>
               <App />

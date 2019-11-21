@@ -97,6 +97,7 @@ const Message = props => {
         data.messages.push(createMessage);
         store.writeQuery({ query: MessageQuery, data });
         setMessage(' ');
+        chatBox.current.scrollTop = chatBox.current.scrollHeight;
       }
     });
     await props.userTyping({
@@ -131,7 +132,7 @@ const Message = props => {
             : receiverName}
         </div>
       </div>
-      <div className="all-messages">
+      <div className="all-messages" ref={chatBox}>
         {messages.map(item =>
           (item.senderMail === email && item.receiverMail === receiverMail) ||
           (item.senderMail === receiverMail && item.receiverMail === email) ? (
@@ -156,7 +157,7 @@ const Message = props => {
       {receiverMail && receiverName && !userLeft ? (
         <form
           onSubmit={e => handleSubmit(e, message, email)}
-          ref={chatBox}
+          
           className="chat-box"
         >
           <TextField
