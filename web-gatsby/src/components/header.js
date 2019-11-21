@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
       <strong>
         <Link to="/">Gatsby + Bulma :3</Link>
       </strong>
-      <nav class="nav">
+      <nav className="nav">
         <Link className="nav__link" to="/">Home</Link>
         <Link className="nav__link" to="/chat/">Chat</Link>
         <Link className="nav__link" to="/team/">Integrantes</Link>
