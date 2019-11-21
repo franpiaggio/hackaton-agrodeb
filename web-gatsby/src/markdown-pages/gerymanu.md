@@ -1,3 +1,4 @@
+---
 path: "/team/gerymanu"
 date: "2019-05-04"
 title: "Gery Manu"

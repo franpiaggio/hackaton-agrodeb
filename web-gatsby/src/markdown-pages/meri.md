@@ -1,7 +1,7 @@
 ---
-path: "/team/meri-holgado
+path: "/team/meri-holgado"
 date: "2019-05-04"
-title: "meri.js"
+title: "meri"
 description: "Static sites: Bulma"
 ---
 
