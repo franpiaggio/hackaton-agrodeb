@@ -32,6 +32,8 @@ Mediante una comunicación fluida con el resto de los integrantes del proyecto s
 
 ## Conclusiones
 
+Manu entendió Docker y se consagró en el mundo de los devops master supremos.
+
 Pudimos comprobar la utilidad de docker en la implementación de un proyecto.
 
 Pudimos adquirir una experiencia diferente del trabajo en equipo, en un ambiente diferente (muy lindas oficinas las de Agrodreams)
