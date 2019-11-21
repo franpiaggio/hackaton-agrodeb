@@ -1,8 +1,8 @@
 ---
-path: "/team/fran-piaggio"
+path: "/team/meri-holgado
 date: "2019-05-04"
-title: "Fran.js"
-description: "Static sites: vuejs vs React"
+title: "meri.js"
+description: "Static sites: Bulma"
 ---
 
 ## ¿Qué temas te interesaba aplicar?
