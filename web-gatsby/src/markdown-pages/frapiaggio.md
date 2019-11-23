@@ -8,7 +8,7 @@ description: "Static sites: vuejs vs React"
 ## ¿Qué temas te interesaba aplicar?
 
  1. Generación de contenido estático 
- 2. Gatsby vs React
+ 2. Gatsby vs Gridsome
  3. Aplicación de Graphql para fetch de datos de distintos source
  4. Estructura de Gatsby: pages, layouts, plugins
  5. Deploy en github pages o AWS
@@ -29,7 +29,6 @@ Soy un capo e hice todo bien.
 
  - Google
  - Stackoverflow
- - Taringa.net
 
 ## Conclusiones
 
