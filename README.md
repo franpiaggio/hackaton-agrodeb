@@ -4,7 +4,7 @@
 
 1. `cd web-gatsby` 
 2. `npm install` to open the folder
-3. `gridsome develop` para serve en develop `http://localhost:8000`
+3. `gatsby develop` para serve en develop `http://localhost:8000`
 
 
 ## Gridsome
